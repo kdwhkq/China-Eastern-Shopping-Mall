@@ -1,0 +1,151 @@
+$page_width:100%;
+$box_width:1200px;
+$margin:0 auto;
+
+%a {
+    color: #666;
+    text-decoration: none;
+}
+
+%top_a {
+    padding: 0 5px;
+    color: #777;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #F3F2F7;
+}
+
+.top_h {
+    width: $box_width;
+    margin: $margin;
+    height: 23.8px;
+    padding: 10px 0;
+
+    .span1 {
+        width: 40%;
+        float: left;
+    }
+
+    .icon {
+        width: 60%;
+        text-align: right;
+        float: right;
+        font-size: 12px;
+        color: #777;
+        line-height: 1.5;
+
+        .span2_p {
+            padding: 0 5px;
+        }
+
+        img {
+            padding: 0 5px;
+        }
+
+        .logn {
+            @extend %top_a;
+        }
+
+        .register {
+            @extend %top_a;
+        }
+
+        .east {
+            @extend %top_a;
+        }
+    }
+}
+
+.top_m {
+    width: $box_width;
+    margin: $margin;
+    // height: 91px;
+    overflow: hidden;
+
+    .span3 {
+        float: left;
+        width: 475px;
+        padding-top: 5px;
+    }
+
+    .span4 {
+        float: left;
+        width: 725px;
+
+        .search_btn {
+            float: left;
+            border: 2px solid #223b61;
+            margin-top: 10px;
+            width: 538px;
+
+            .search {
+                width: 440px;
+                border: none;
+                height: 18px;
+                padding: 6px;
+                color: #999;
+            }
+
+            .button {
+                width: 80px;
+                height: 30px;
+                border: none;
+                background: #223b61;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        }
+
+        .cart {
+            float: left;
+            margin: 10px 0 0 40px;
+            font-size: 12px;
+            line-height: 34px;
+            border: 1px solid #ccc;
+            width: 140px;
+            text-align: center;
+            cursor: pointer;
+
+            .icon-gouwuche {
+                margin-right: 3px;
+            }
+        }
+
+        .hotsearch {
+            float: left;
+            font-size: 12px;
+            line-height: 20px;
+            color: #666;
+            margin: 10px 0 15px 0;
+
+            li {
+                float: left;
+                margin-left: 10px;
+
+                a {
+                    @extend %a;
+                }
+            }
+        }
+    }
+}
+
+
+.top_f {
+    width: $page_width;
+    margin: $margin;
+    height: 42px;
+    background-color: olive;
+}
+
+.ad {
+    width: $page_width;
+    margin: $margin;
+    height: 465px;
+    background-color: orange;
+}

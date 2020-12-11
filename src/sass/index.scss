@@ -1,0 +1,71 @@
+@import "public";
+@import "top";
+$page_width:100%;
+
+.main .recommend{
+    width: 1200px;
+    height: 150px;
+    background-color: red;
+    margin: 0 auto;
+}
+.main .phone{
+    width: 1200px;
+    height: 516px;
+    background-color: green;
+    margin: 0 auto;
+}
+.main .beauty{
+    width: 1200px;
+    height: 516px;
+    background-color: blue;
+    margin: 0 auto;
+}
+.main .baihuo{
+    width: 1200px;
+    height: 516px;
+    background-color:orange;
+    margin: 0 auto;
+}
+.main .dianqi{
+    width: 1200px;
+    height: 516px;
+    background-color:pink;
+    margin: 0 auto;
+}
+.main .package{
+    width: 1200px;
+    height: 516px;
+    background-color:gold;
+    margin: 0 auto;
+}
+.main .motion{
+    width: 1200px;
+    height: 516px;
+    background-color:rgb(0, 204, 255);
+    margin: 0 auto;
+}
+.main .watch{
+    width: 1200px;
+    height: 516px;
+    background-color:rgb(181, 43, 185);
+    margin: 0 auto;
+}
+
+
+.footer .footer_img{
+    width: 100%;
+    height: 60px;
+    background-color: hotpink;
+}
+.footer .footer_link{
+    width: 100%;
+    height: 205px;
+    background-color: green;
+    padding: 40px 0;
+}
+.footer .footer_down{
+    width: 100%;
+    height: 35.2px;
+    background-color: paleturquoise;
+    margin: 40px 0;
+}

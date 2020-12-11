@@ -1,0 +1,323 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.top_m .span4 .hotsearch li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.top_h .icon .logn, .top_h .icon .register, .top_h .icon .east {
+  padding: 0 5px;
+  color: #777;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F3F2F7;
+}
+
+.top_h {
+  width: 1200px;
+  margin: 0 auto;
+  height: 23.8px;
+  padding: 10px 0;
+}
+.top_h .span1 {
+  width: 40%;
+  float: left;
+}
+.top_h .icon {
+  width: 60%;
+  text-align: right;
+  float: right;
+  font-size: 12px;
+  color: #777;
+  line-height: 1.5;
+}
+.top_h .icon .span2_p {
+  padding: 0 5px;
+}
+.top_h .icon img {
+  padding: 0 5px;
+}
+
+.top_m {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.top_m .span3 {
+  float: left;
+  width: 475px;
+  padding-top: 5px;
+}
+.top_m .span4 {
+  float: left;
+  width: 725px;
+}
+.top_m .span4 .search_btn {
+  float: left;
+  border: 2px solid #223b61;
+  margin-top: 10px;
+  width: 538px;
+}
+.top_m .span4 .search_btn .search {
+  width: 440px;
+  border: none;
+  height: 18px;
+  padding: 6px;
+  color: #999;
+}
+.top_m .span4 .search_btn .button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background: #223b61;
+  color: #fff;
+  cursor: pointer;
+}
+.top_m .span4 .cart {
+  float: left;
+  margin: 10px 0 0 40px;
+  font-size: 12px;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+}
+.top_m .span4 .cart .icon-gouwuche {
+  margin-right: 3px;
+}
+.top_m .span4 .hotsearch {
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  margin: 10px 0 15px 0;
+}
+.top_m .span4 .hotsearch li {
+  float: left;
+  margin-left: 10px;
+}
+
+.top_f {
+  width: 100%;
+  margin: 0 auto;
+  height: 42px;
+  background-color: olive;
+}
+
+.ad {
+  width: 100%;
+  margin: 0 auto;
+  height: 465px;
+  background-color: orange;
+}
+
+.main .recommend {
+  width: 1200px;
+  height: 150px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.main .phone {
+  width: 1200px;
+  height: 516px;
+  background-color: green;
+  margin: 0 auto;
+}
+
+.main .beauty {
+  width: 1200px;
+  height: 516px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.main .baihuo {
+  width: 1200px;
+  height: 516px;
+  background-color: orange;
+  margin: 0 auto;
+}
+
+.main .dianqi {
+  width: 1200px;
+  height: 516px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+.main .package {
+  width: 1200px;
+  height: 516px;
+  background-color: gold;
+  margin: 0 auto;
+}
+
+.main .motion {
+  width: 1200px;
+  height: 516px;
+  background-color: #00ccff;
+  margin: 0 auto;
+}
+
+.main .watch {
+  width: 1200px;
+  height: 516px;
+  background-color: #b52bb9;
+  margin: 0 auto;
+}
+
+.footer .footer_img {
+  width: 100%;
+  height: 60px;
+  background-color: hotpink;
+}
+
+.footer .footer_link {
+  width: 100%;
+  height: 205px;
+  background-color: green;
+  padding: 40px 0;
+}
+
+.footer .footer_down {
+  width: 100%;
+  height: 35.2px;
+  background-color: paleturquoise;
+  margin: 40px 0;
+}
+
+/*# sourceMappingURL=index.css.map */
