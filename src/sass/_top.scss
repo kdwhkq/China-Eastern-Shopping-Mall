@@ -24,6 +24,7 @@ body {
     margin: $margin;
     height: 23.8px;
     padding: 10px 0;
+    background: #F3F2F7;
 
     .span1 {
         width: 40%;
@@ -65,6 +66,7 @@ body {
     margin: $margin;
     // height: 91px;
     overflow: hidden;
+    background: #F3F2F7;
 
     .span3 {
         float: left;
@@ -85,6 +87,7 @@ body {
             .search {
                 width: 440px;
                 border: none;
+                outline: none;
                 height: 18px;
                 padding: 6px;
                 color: #999;
@@ -139,8 +142,43 @@ body {
 .top_f {
     width: $page_width;
     margin: $margin;
-    height: 42px;
-    background-color: olive;
+    background-color: #fff;
+    border-bottom: 2px solid #223b61;
+
+    .top_f_c {
+        width: $box_width;
+        margin: $margin;
+        height: 45px;
+        position: relative;
+
+        .allText {
+            width: 212px;
+            line-height: 47px;
+            background: #223b61;
+            color: #fff;
+            cursor: default;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .lvyou {
+            padding: 0 30px;
+            font-weight: 700;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+        .banner {
+            position: absolute;
+            top: 47px;
+            left: 0;
+        }
+    }
 }
 
 .ad {
@@ -149,3 +187,87 @@ body {
     height: 465px;
     background-color: orange;
 }
+
+.menu {
+    position: relative;
+    z-index: 3;
+
+    ul {
+        overflow: hidden;
+        height: 450px;
+        background-color: #fefefe;
+        color: #636363;
+        width: 212px;
+        padding-bottom: 15px;
+
+        li {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 18px;
+
+            a {
+                font-size: 14px;
+                color: #333;
+                text-decoration: none;
+            }
+
+            span {
+                padding: 0 2px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.menu ul li.active {
+    background-color: #d9d9d9;
+}
+
+.cartlist {
+    position: absolute;
+    left: 210px;
+    top: 0;
+    width: 986px;
+    min-height: 460px;
+    border: 2px solid #D6E9FC;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+    display: none;
+    transition: top 0.3s ease;
+
+    .item {
+        display: none;
+        width: 986px;
+
+        b {
+            float: left;
+            width: 120px;
+            line-height: 22px;
+            text-align: center;
+            padding: 3px 6px 0 0;
+            font-size: 12px;
+        }
+
+        dd {
+            border-top: 1px solid #eeeeee;
+            width: 860px;
+            float: left;
+            padding: 3px 0 10px;
+            overflow: hidden;
+
+            em {
+                float: left;
+                font-size: 12px;
+                line-height: 14PX;
+                padding: 0 8PX;
+                margin-top: 5px;
+                border-left: 1px solid #eeeeee;
+
+                a {
+                    @extend %top_a;
+                }
+            }
+        }
+    }
+}
+
