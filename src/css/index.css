@@ -107,7 +107,7 @@ body {
 }
 
 ol,
-ul {
+ul li {
   list-style: none;
 }
 
@@ -420,6 +420,10 @@ body {
   padding: 0 23px;
   cursor: pointer;
 }
+.main .phone .t_span {
+  color: #5BB4FB;
+  font-weight: 700;
+}
 .main .phone .span6 {
   width: 320px;
   float: left;
@@ -457,67 +461,659 @@ body {
   background: #000;
   opacity: .5;
 }
+.main .phone .span6 .words {
+  font-size: 12px;
+  background: #e8e8e3;
+  width: 100%;
+  height: 158px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+.main .phone .span6 .words a {
+  color: #94948d;
+  line-height: 240%;
+  width: 28.3%;
+  padding-left: 4%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+.main .phone .span6 .words .border {
+  border-right: 1px solid #fff;
+}
+.main .phone .span7 {
+  width: 880px;
+  height: 473px;
+  float: left;
+}
+.main .phone .span7 div {
+  width: 880px;
+  height: 473px;
+  display: none;
+}
+.main .phone .span7 div li {
+  float: left;
+}
+.main .phone .span7 div li img {
+  cursor: pointer;
+}
+.main .phone .span7 .c_show {
+  display: block;
+}
+.main .phone .content_2 li, .main .phone .content_3 li, .main .phone .content_4 li, .main .phone .content_5 li, .main .phone .content_6 li {
+  width: 25%;
+  height: 236px;
+  background: #fff;
+  outline: 1px solid #f3f2f7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.main .phone .content_2 li img, .main .phone .content_3 li img, .main .phone .content_4 li img, .main .phone .content_5 li img, .main .phone .content_6 li img {
+  height: 130px;
+  width: 130px;
+  margin-top: 6px;
+  text-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+.main .phone .content_2 li h6, .main .phone .content_3 li h6, .main .phone .content_4 li h6, .main .phone .content_5 li h6, .main .phone .content_6 li h6 {
+  font-weight: normal;
+  margin: 6px 15px 0;
+  height: 36px;
+  overflow: hidden;
+  line-height: 150%;
+}
+.main .phone .content_2 li span, .main .phone .content_3 li span, .main .phone .content_4 li span, .main .phone .content_5 li span, .main .phone .content_6 li span {
+  color: #ff4c4c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 3px 0 -3px 12px;
+}
+.main .phone .content_2 li p, .main .phone .content_3 li p, .main .phone .content_4 li p, .main .phone .content_5 li p, .main .phone .content_6 li p {
+  margin: 0 15px;
+  line-height: 26px;
+  color: #a5a5a5;
+}
 
 .main .beauty {
   width: 1200px;
   height: 516px;
-  background-color: blue;
   margin: 0 auto;
+}
+.main .beauty .title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  overflow: hidden;
+}
+.main .beauty .title .title_l {
+  width: 40%;
+  font-size: 18px;
+  float: left;
+}
+.main .beauty .title .title_l span {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: url(../images/icon.fw.png) 0 -94px no-repeat;
+}
+.main .beauty .title .title_l strong {
+  padding-left: 40px;
+}
+.main .beauty .title .title_r {
+  width: 60%;
+  text-align: right;
+  float: left;
+}
+.main .beauty .title .title_r span {
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  padding: 0 23px;
+  cursor: pointer;
+}
+.main .beauty .t_span {
+  color: #5BB4FB;
+  font-weight: 700;
+}
+.main .beauty .span6 {
+  width: 320px;
+  float: left;
+}
+.main .beauty .span6 .span6_img {
+  position: relative;
+  width: 100%;
+  height: 295px;
+  overflow: hidden;
+}
+.main .beauty .span6 .span6_img .txt {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 1;
+}
+.main .beauty .span6 .span6_img .txt a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main .beauty .span6 .span6_img .mask {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background: #000;
+  opacity: .5;
+}
+.main .beauty .span6 .words {
+  font-size: 12px;
+  background: #e8e8e3;
+  width: 100%;
+  height: 158px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+.main .beauty .span6 .words a {
+  color: #94948d;
+  line-height: 240%;
+  width: 28.3%;
+  padding-left: 4%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+.main .beauty .span6 .words .border {
+  border-right: 1px solid #fff;
+}
+.main .beauty .span7 {
+  width: 880px;
+  height: 473px;
+  float: left;
+}
+.main .beauty .span7 div {
+  width: 880px;
+  height: 473px;
+  display: none;
+}
+.main .beauty .span7 div li {
+  float: left;
+}
+.main .beauty .span7 div li img {
+  cursor: pointer;
+}
+.main .beauty .span7 .c_show {
+  display: block;
+}
+.main .beauty .content_2 li, .main .beauty .content_3 li, .main .beauty .content_4 li, .main .beauty .content_5 li, .main .beauty .content_6 li {
+  width: 25%;
+  height: 236px;
+  background: #fff;
+  outline: 1px solid #f3f2f7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.main .beauty .content_2 li img, .main .beauty .content_3 li img, .main .beauty .content_4 li img, .main .beauty .content_5 li img, .main .beauty .content_6 li img {
+  height: 130px;
+  width: 130px;
+  margin-top: 6px;
+  text-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+.main .beauty .content_2 li h6, .main .beauty .content_3 li h6, .main .beauty .content_4 li h6, .main .beauty .content_5 li h6, .main .beauty .content_6 li h6 {
+  font-weight: normal;
+  margin: 6px 15px 0;
+  height: 36px;
+  overflow: hidden;
+  line-height: 150%;
+}
+.main .beauty .content_2 li span, .main .beauty .content_3 li span, .main .beauty .content_4 li span, .main .beauty .content_5 li span, .main .beauty .content_6 li span {
+  color: #ff4c4c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 3px 0 -3px 12px;
+}
+.main .beauty .content_2 li p, .main .beauty .content_3 li p, .main .beauty .content_4 li p, .main .beauty .content_5 li p, .main .beauty .content_6 li p {
+  margin: 0 15px;
+  line-height: 26px;
+  color: #a5a5a5;
 }
 
 .main .baihuo {
   width: 1200px;
   height: 516px;
-  background-color: orange;
   margin: 0 auto;
 }
+.main .baihuo .title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  overflow: hidden;
+}
+.main .baihuo .title .title_l {
+  width: 40%;
+  font-size: 18px;
+  float: left;
+}
+.main .baihuo .title .title_l span {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: url(../images/icon.fw.png) 0 -129px no-repeat;
+}
+.main .baihuo .title .title_l strong {
+  padding-left: 40px;
+}
+.main .baihuo .title .title_r {
+  width: 60%;
+  text-align: right;
+  float: left;
+}
+.main .baihuo .title .title_r span {
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  padding: 0 23px;
+  cursor: pointer;
+}
+.main .baihuo .t_span {
+  color: #5BB4FB;
+  font-weight: 700;
+}
+.main .baihuo .span6 {
+  width: 320px;
+  float: left;
+}
+.main .baihuo .span6 .span6_img {
+  position: relative;
+  width: 100%;
+  height: 295px;
+  overflow: hidden;
+}
+.main .baihuo .span6 .span6_img .txt {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 1;
+}
+.main .baihuo .span6 .span6_img .txt a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main .baihuo .span6 .span6_img .mask {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background: #000;
+  opacity: .5;
+}
+.main .baihuo .span6 .words {
+  font-size: 12px;
+  background: #e8e8e3;
+  width: 100%;
+  height: 158px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+.main .baihuo .span6 .words a {
+  color: #94948d;
+  line-height: 240%;
+  width: 28.3%;
+  padding-left: 4%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+.main .baihuo .span6 .words .border {
+  border-right: 1px solid #fff;
+}
+.main .baihuo .span7 {
+  width: 880px;
+  height: 473px;
+  float: left;
+}
+.main .baihuo .span7 div {
+  width: 880px;
+  height: 473px;
+  display: none;
+}
+.main .baihuo .span7 div li {
+  float: left;
+}
+.main .baihuo .span7 div li img {
+  cursor: pointer;
+}
+.main .baihuo .span7 .c_show {
+  display: block;
+}
+.main .baihuo .content_2 li, .main .baihuo .content_3 li, .main .baihuo .content_4 li, .main .baihuo .content_5 li, .main .baihuo .content_6 li {
+  width: 25%;
+  height: 236px;
+  background: #fff;
+  outline: 1px solid #f3f2f7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.main .baihuo .content_2 li img, .main .baihuo .content_3 li img, .main .baihuo .content_4 li img, .main .baihuo .content_5 li img, .main .baihuo .content_6 li img {
+  height: 130px;
+  width: 130px;
+  margin-top: 6px;
+  text-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+.main .baihuo .content_2 li h6, .main .baihuo .content_3 li h6, .main .baihuo .content_4 li h6, .main .baihuo .content_5 li h6, .main .baihuo .content_6 li h6 {
+  font-weight: normal;
+  margin: 6px 15px 0;
+  height: 36px;
+  overflow: hidden;
+  line-height: 150%;
+}
+.main .baihuo .content_2 li span, .main .baihuo .content_3 li span, .main .baihuo .content_4 li span, .main .baihuo .content_5 li span, .main .baihuo .content_6 li span {
+  color: #ff4c4c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 3px 0 -3px 12px;
+}
+.main .baihuo .content_2 li p, .main .baihuo .content_3 li p, .main .baihuo .content_4 li p, .main .baihuo .content_5 li p, .main .baihuo .content_6 li p {
+  margin: 0 15px;
+  line-height: 26px;
+  color: #a5a5a5;
+}
 
-.main .dianqi {
+.main .dianqi, .main .package, .main .motion, .main .watch {
   width: 1200px;
   height: 516px;
-  background-color: pink;
   margin: 0 auto;
+}
+.main .dianqi .title, .main .package .title, .main .motion .title, .main .watch .title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  overflow: hidden;
+}
+.main .dianqi .title .title_l, .main .package .title .title_l, .main .motion .title .title_l, .main .watch .title .title_l {
+  width: 40%;
+  font-size: 18px;
+  float: left;
+}
+.main .dianqi .title .title_l span, .main .package .title .title_l span, .main .motion .title .title_l span, .main .watch .title .title_l span {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: url(../images/icon.fw.png) -204px 0 no-repeat;
+}
+.main .dianqi .title .title_l strong, .main .package .title .title_l strong, .main .motion .title .title_l strong, .main .watch .title .title_l strong {
+  padding-left: 40px;
+}
+.main .dianqi .title .title_r, .main .package .title .title_r, .main .motion .title .title_r, .main .watch .title .title_r {
+  width: 60%;
+  text-align: right;
+  float: left;
+}
+.main .dianqi .title .title_r span, .main .package .title .title_r span, .main .motion .title .title_r span, .main .watch .title .title_r span {
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  padding: 0 23px;
+  cursor: pointer;
+}
+.main .dianqi .t_span, .main .package .t_span, .main .motion .t_span, .main .watch .t_span {
+  color: #5BB4FB;
+  font-weight: 700;
+}
+.main .dianqi .span6, .main .package .span6, .main .motion .span6, .main .watch .span6 {
+  width: 320px;
+  float: left;
+}
+.main .dianqi .span6 .span6_img, .main .package .span6 .span6_img, .main .motion .span6 .span6_img, .main .watch .span6 .span6_img {
+  position: relative;
+  width: 100%;
+  height: 295px;
+  overflow: hidden;
+}
+.main .dianqi .span6 .span6_img .txt, .main .package .span6 .span6_img .txt, .main .motion .span6 .span6_img .txt, .main .watch .span6 .span6_img .txt {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 1;
+}
+.main .dianqi .span6 .span6_img .txt a, .main .package .span6 .span6_img .txt a, .main .motion .span6 .span6_img .txt a, .main .watch .span6 .span6_img .txt a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main .dianqi .span6 .span6_img .mask, .main .package .span6 .span6_img .mask, .main .motion .span6 .span6_img .mask, .main .watch .span6 .span6_img .mask {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background: #000;
+  opacity: .5;
+}
+.main .dianqi .span6 .words, .main .package .span6 .words, .main .motion .span6 .words, .main .watch .span6 .words {
+  font-size: 12px;
+  background: #e8e8e3;
+  width: 100%;
+  height: 158px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+.main .dianqi .span6 .words a, .main .package .span6 .words a, .main .motion .span6 .words a, .main .watch .span6 .words a {
+  color: #94948d;
+  line-height: 240%;
+  width: 28.3%;
+  padding-left: 4%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+.main .dianqi .span6 .words .border, .main .package .span6 .words .border, .main .motion .span6 .words .border, .main .watch .span6 .words .border {
+  border-right: 1px solid #fff;
+}
+.main .dianqi .span7, .main .package .span7, .main .motion .span7, .main .watch .span7 {
+  width: 880px;
+  height: 473px;
+  float: left;
+}
+.main .dianqi .span7 div, .main .package .span7 div, .main .motion .span7 div, .main .watch .span7 div {
+  width: 880px;
+  height: 473px;
+  display: none;
+}
+.main .dianqi .span7 div li, .main .package .span7 div li, .main .motion .span7 div li, .main .watch .span7 div li {
+  float: left;
+}
+.main .dianqi .span7 div li img, .main .package .span7 div li img, .main .motion .span7 div li img, .main .watch .span7 div li img {
+  cursor: pointer;
+}
+.main .dianqi .span7 .c_show, .main .package .span7 .c_show, .main .motion .span7 .c_show, .main .watch .span7 .c_show {
+  display: block;
+}
+.main .dianqi .content_2 li, .main .dianqi .content_3 li, .main .dianqi .content_4 li, .main .dianqi .content_5 li, .main .dianqi .content_6 li, .main .package .content_2 li, .main .package .content_3 li, .main .package .content_4 li, .main .package .content_5 li, .main .package .content_6 li, .main .motion .content_2 li, .main .motion .content_3 li, .main .motion .content_4 li, .main .motion .content_5 li, .main .motion .content_6 li, .main .watch .content_2 li, .main .watch .content_3 li, .main .watch .content_4 li, .main .watch .content_5 li, .main .watch .content_6 li {
+  width: 25%;
+  height: 236px;
+  background: #fff;
+  outline: 1px solid #f3f2f7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.main .dianqi .content_2 li img, .main .dianqi .content_3 li img, .main .dianqi .content_4 li img, .main .dianqi .content_5 li img, .main .dianqi .content_6 li img, .main .package .content_2 li img, .main .package .content_3 li img, .main .package .content_4 li img, .main .package .content_5 li img, .main .package .content_6 li img, .main .motion .content_2 li img, .main .motion .content_3 li img, .main .motion .content_4 li img, .main .motion .content_5 li img, .main .motion .content_6 li img, .main .watch .content_2 li img, .main .watch .content_3 li img, .main .watch .content_4 li img, .main .watch .content_5 li img, .main .watch .content_6 li img {
+  height: 130px;
+  width: 130px;
+  margin-top: 6px;
+  text-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+.main .dianqi .content_2 li h6, .main .dianqi .content_3 li h6, .main .dianqi .content_4 li h6, .main .dianqi .content_5 li h6, .main .dianqi .content_6 li h6, .main .package .content_2 li h6, .main .package .content_3 li h6, .main .package .content_4 li h6, .main .package .content_5 li h6, .main .package .content_6 li h6, .main .motion .content_2 li h6, .main .motion .content_3 li h6, .main .motion .content_4 li h6, .main .motion .content_5 li h6, .main .motion .content_6 li h6, .main .watch .content_2 li h6, .main .watch .content_3 li h6, .main .watch .content_4 li h6, .main .watch .content_5 li h6, .main .watch .content_6 li h6 {
+  font-weight: normal;
+  margin: 6px 15px 0;
+  height: 36px;
+  overflow: hidden;
+  line-height: 150%;
+}
+.main .dianqi .content_2 li span, .main .dianqi .content_3 li span, .main .dianqi .content_4 li span, .main .dianqi .content_5 li span, .main .dianqi .content_6 li span, .main .package .content_2 li span, .main .package .content_3 li span, .main .package .content_4 li span, .main .package .content_5 li span, .main .package .content_6 li span, .main .motion .content_2 li span, .main .motion .content_3 li span, .main .motion .content_4 li span, .main .motion .content_5 li span, .main .motion .content_6 li span, .main .watch .content_2 li span, .main .watch .content_3 li span, .main .watch .content_4 li span, .main .watch .content_5 li span, .main .watch .content_6 li span {
+  color: #ff4c4c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 3px 0 -3px 12px;
+}
+.main .dianqi .content_2 li p, .main .dianqi .content_3 li p, .main .dianqi .content_4 li p, .main .dianqi .content_5 li p, .main .dianqi .content_6 li p, .main .package .content_2 li p, .main .package .content_3 li p, .main .package .content_4 li p, .main .package .content_5 li p, .main .package .content_6 li p, .main .motion .content_2 li p, .main .motion .content_3 li p, .main .motion .content_4 li p, .main .motion .content_5 li p, .main .motion .content_6 li p, .main .watch .content_2 li p, .main .watch .content_3 li p, .main .watch .content_4 li p, .main .watch .content_5 li p, .main .watch .content_6 li p {
+  margin: 0 15px;
+  line-height: 26px;
+  color: #a5a5a5;
 }
 
 .main .package {
   width: 1200px;
   height: 516px;
-  background-color: gold;
   margin: 0 auto;
+}
+.main .package .title .title_l span {
+  background: url(../images/icon.fw.png) -237px 0 no-repeat;
 }
 
 .main .motion {
   width: 1200px;
   height: 516px;
-  background-color: #00ccff;
   margin: 0 auto;
+}
+.main .motion .title .title_l span {
+  background: url(../images/icon.fw.png) -269px 0 no-repeat;
 }
 
 .main .watch {
   width: 1200px;
   height: 516px;
-  background-color: #b52bb9;
   margin: 0 auto;
+}
+.main .watch .title .title_l span {
+  background: url(../images/icon.fw.png) -204px -32px no-repeat;
 }
 
 .footer .footer_img {
   width: 100%;
+  background: #223b61;
+  margin: 20px 0 0;
+}
+.footer .footer_img .footer_t {
+  margin: 0 auto;
+  width: 1200px;
   height: 60px;
-  background-color: hotpink;
+}
+.footer .footer_img .footer_t img {
+  width: 1200px;
+  height: 60px;
 }
 
 .footer .footer_link {
   width: 100%;
   height: 205px;
-  background-color: green;
   padding: 40px 0;
+}
+.footer .footer_link .f_link_c {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .footer_link .f_link_c ul {
+  float: left;
+  width: 16%;
+  margin-left: 40px;
+}
+.footer .footer_link .f_link_c ul .ul_t {
+  font-size: 14px;
+  color: #666;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer .footer_link .f_link_c ul li {
+  color: #89898a;
+  height: 25px;
+  font-size: 12px;
+  line-height: 200%;
+}
+.footer .footer_link .f_link_c ul li a {
+  color: #89898a;
+  text-decoration: none;
+}
+
+.footerline {
+  height: 1px;
+  width: 100%;
+  background: #E8E8E8;
+  clear: both;
 }
 
 .footer .footer_down {
   width: 100%;
   height: 35.2px;
-  background-color: paleturquoise;
+  font-size: 12px;
+  text-align: center;
+  color: #89898A;
   margin: 40px 0;
+}
+.footer .footer_down a {
+  color: #000;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
