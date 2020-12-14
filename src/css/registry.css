@@ -1,0 +1,11 @@
+header{
+    height: 132px;
+    line-height: 132px;
+    background: #fff;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 132px;
+    border: 1px solid red;
+}

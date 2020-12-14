@@ -268,13 +268,221 @@ body {
   position: absolute;
   top: 47px;
   left: 0;
+  z-index: 99;
 }
 
 .ad {
   width: 100%;
   margin: 0 auto;
   height: 465px;
-  background-color: orange;
+}
+.ad .lunbo {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.ad .lunbo .chuxing {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 230px;
+  height: 436px;
+  font-size: 12px;
+  background: #fff;
+  z-index: 2;
+}
+.ad .lunbo .chuxing .chu_t {
+  background: #5bb4fb;
+  color: #fff;
+  height: 38px;
+  text-align: center;
+  border: 1px solid #5bb4fb;
+  font-size: 14px;
+  line-height: 38px;
+}
+.ad .lunbo .chuxing .chu_t i {
+  height: 20px;
+  width: 30px;
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  background: url(../images/homeIcon.png) center -139px no-repeat;
+}
+.ad .lunbo .chuxing .rightTop {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.ad .lunbo .chuxing .rightTop label {
+  display: inline-block;
+  width: 115px;
+  padding: 8px 0;
+}
+.ad .lunbo .chuxing .rightTop .input_l {
+  text-align: left;
+}
+.ad .lunbo .chuxing .rightTop .input_l input {
+  margin-left: 20px;
+}
+.ad .lunbo .chuxing .rightTop .input_r {
+  text-align: right;
+  width: 90px;
+  padding-right: 20px;
+}
+.ad .lunbo .chuxing .rightDome {
+  width: 190px;
+  margin: 0 auto;
+  padding: 5px 0;
+  height: 250px;
+  font-size: 12px;
+  box-sizing: content-box;
+}
+.ad .lunbo .chuxing .rightDome .city {
+  float: left;
+}
+.ad .lunbo .chuxing .rightDome .city .ll {
+  width: 173px;
+  display: inline-block;
+}
+.ad .lunbo .chuxing .rightDome .city .ll .cityInput {
+  width: 190px;
+  margin-top: 5px;
+}
+.ad .lunbo .chuxing .rightDome .city .ll .cityInput input {
+  height: 28px;
+  width: 160px;
+  outline: 0;
+  line-height: 28px;
+  padding-left: 5px;
+  margin-top: 3px;
+  border: 1px solid #eee;
+  box-sizing: content-box;
+}
+.ad .lunbo .chuxing .rightDome .city .rr {
+  float: right;
+  width: 17px;
+  margin-top: 29px;
+  height: 71px;
+  background: url(../images/homeIcon.png) 0 -344px no-repeat;
+}
+.ad .lunbo .chuxing .rightDome .city .rr .change {
+  margin-top: 25px;
+  float: left;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  background: #59A5F0;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+}
+.ad .lunbo .chuxing .rightDome .cb {
+  clear: both;
+  padding-top: 5px;
+  width: 190px;
+}
+.ad .lunbo .chuxing .rightDome .cb input {
+  width: 183px;
+  height: 28px;
+  outline: 0;
+  line-height: 28px;
+  padding-left: 5px;
+  margin-top: 3px;
+  border: 1px solid #eee;
+  box-sizing: content-box;
+}
+.ad .lunbo .chuxing .rightDome .bottom {
+  width: 190px;
+  height: 30px;
+  margin-top: 5px;
+}
+.ad .lunbo .chuxing .rightDome .bottom a {
+  color: #fff;
+  width: 190px;
+  height: 30px;
+  line-height: 30px;
+  background: #FF7F00;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+.ad .lunbo .chuxing ul {
+  width: 190px;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+}
+.ad .lunbo .chuxing ul li {
+  float: left;
+  width: 63px;
+  height: 40px;
+  margin: 0 0 5px 0;
+  position: relative;
+}
+.ad .lunbo .chuxing ul li a {
+  width: 50px;
+  height: 40px;
+  display: block;
+  color: #444;
+  text-decoration: none;
+}
+.ad .lunbo .chuxing ul li a i {
+  display: block;
+  padding-top: 25px;
+}
+.ad .lunbo .chuxing ul li .huafei {
+  background: url(../images/phoneB.png) no-repeat 10px 0;
+  background-size: 30px 30px;
+  text-align: center;
+}
+.ad .lunbo .chuxing ul li .hotel {
+  background-size: 30px 30px;
+  text-align: center;
+  background: url(../images/hotel.png) no-repeat 10px 0;
+}
+.ad .lunbo .chuxing ul .middle {
+  text-align: center;
+}
+.ad .lunbo .chuxing ul .middle a {
+  padding: 0 11px;
+}
+.ad .lunbo .chuxing ul .middle .airplane {
+  background-size: 30px 30px;
+  text-align: center;
+  background: url(../images/airplane.png) no-repeat 20px 0;
+}
+.ad .lunbo .chuxing ul .last {
+  text-align: right;
+}
+.ad .lunbo .chuxing ul .last a {
+  padding: 0 0 0 15px;
+}
+.ad .lunbo .chuxing ul .last .buscard {
+  background-size: 30px 30px;
+  text-align: center;
+  background: url(../images/aotoA.png) no-repeat 25px 0;
+}
+.ad .lunbo #left {
+  width: 28px;
+  height: 75px;
+  cursor: pointer;
+  position: absolute;
+  top: 195px;
+  left: 210px;
+  background: url(../images/icon.fw.png) no-repeat -177px -400px;
+  z-index: 30;
+}
+.ad .lunbo #right {
+  width: 28px;
+  height: 75px;
+  cursor: pointer;
+  position: absolute;
+  top: 195px;
+  right: 230px;
+  background: url(../images/icon.fw.png) no-repeat -209px -400px;
+  z-index: 30;
 }
 
 .menu {
@@ -293,14 +501,20 @@ body {
   height: 30px;
   line-height: 30px;
   padding-left: 18px;
+  position: relative;
 }
 .menu ul li a {
   font-size: 14px;
   color: #333;
   text-decoration: none;
 }
-.menu ul li span {
-  padding: 0 2px;
+.menu ul li .arr_right {
+  position: absolute;
+  top: 11px;
+  right: 8px;
+  width: 4px;
+  height: 8px;
+  background: url(../images/icon.fw.png) -228px -71px no-repeat;
   font-size: 12px;
 }
 
@@ -346,6 +560,35 @@ body {
   padding: 0 8PX;
   margin-top: 5px;
   border-left: 1px solid #eeeeee;
+}
+
+.lunbotu {
+  width: 100%;
+  height: 465px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lunbotu ul li img {
+  position: absolute;
+  width: 100%;
+  height: 465px;
+  top: 0;
+  left: 50%;
+  margin-left: -50%;
+  z-index: 1;
+}
+
+.lunbotu ul li {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 465px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  top: 0px;
+  opacity: 0;
 }
 
 .main .recommend {
@@ -1048,6 +1291,55 @@ body {
 }
 .main .watch .title .title_l span {
   background: url(../images/icon.fw.png) -204px -32px no-repeat;
+}
+
+.loutinav {
+  width: 160px;
+  font-size: 14px;
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  display: none;
+  margin-top: -110px;
+  z-index: 99;
+}
+.loutinav dl:hover dd {
+  color: #fff;
+  background-position: 0 0;
+}
+.loutinav dl:hover dt {
+  display: block;
+}
+.loutinav dl {
+  height: 31px;
+  padding: 5px 0;
+  line-height: 31px;
+  cursor: pointer;
+}
+.loutinav dl dt {
+  text-align: right;
+  width: 120px;
+  overflow: hidden;
+  color: #ff7f00;
+  float: left;
+  display: none;
+}
+.loutinav dl dd {
+  background: url(../images/homeIcon.png) 0 -52px no-repeat;
+  color: #444;
+  width: 31px;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: all .5s;
+}
+.loutinav .on dt {
+  display: block;
+}
+.loutinav .on dd {
+  background-position: 0 0;
+  color: #fff;
 }
 
 .footer .footer_img {
