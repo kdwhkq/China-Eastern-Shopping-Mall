@@ -114,8 +114,34 @@ body {
             text-align: center;
             cursor: pointer;
 
-            .icon-gouwuche {
+            .gouwuche {
+                width: 22px;
+                height: 16px;
+                display: inline-block;
+                background: url(../images/cart.png) no-repeat;
+                position: relative;
+                top: 3px;
                 margin-right: 3px;
+            }
+
+            .number {
+                padding: 1px 9px;
+                background: #FF7F00;
+                color: #FFF;
+                border-radius: 8px;
+                font-size: 10px;
+                line-height: 14px;
+                display: inline-block;
+                height: 14px;
+                position: relative;
+                top: -1px;
+            }
+            .arrow{
+                width: 6px;
+                height: 9px;
+                background: url(../images/icon.fw.png) -228px -84px no-repeat;
+                position: relative;
+                display: inline-block;
             }
         }
 
@@ -189,7 +215,7 @@ body {
 
     .lunbo {
         width: $box_width;
-        
+
         margin: 0 auto;
         position: relative;
 
@@ -339,56 +365,68 @@ body {
                     }
                 }
             }
-            ul{
+
+            ul {
                 width: 190px;
                 margin: 0 auto;
                 overflow: hidden;
                 clear: both;
-                li{
+
+                li {
                     float: left;
                     width: 63px;
                     height: 40px;
                     margin: 0 0 5px 0;
                     position: relative;
-                    a{
+
+                    a {
                         width: 50px;
                         height: 40px;
                         display: block;
-                        color: #444;                      
+                        color: #444;
                         text-decoration: none;
-                        i{
+
+                        i {
                             display: block;
                             padding-top: 25px;
                         }
                     }
-                    .huafei{
+
+                    .huafei {
                         background: url(../images/phoneB.png) no-repeat 10px 0;
                         background-size: 30px 30px;
                         text-align: center;
                     }
-                    .hotel{
+
+                    .hotel {
                         background-size: 30px 30px;
                         text-align: center;
                         background: url(../images/hotel.png) no-repeat 10px 0;
                     }
                 }
-                .middle{
+
+                .middle {
                     text-align: center;
-                    a{
+
+                    a {
                         padding: 0 11px;
                     }
-                    .airplane{
+
+                    .airplane {
                         background-size: 30px 30px;
                         text-align: center;
                         background: url(../images/airplane.png) no-repeat 20px 0;
                     }
                 }
-                .last{
+
+                .last {
                     text-align: right;
-                    a{
+
+                    a {
                         padding: 0 0 0 15px;
                     }
-                    .buscard{
+
+                    .buscard {
                         background-size: 30px 30px;
                         text-align: center;
                         background: url(../images/aotoA.png) no-repeat 25px 0;
@@ -396,30 +434,32 @@ body {
                 }
             }
         }
-        #left{
-                width: 28px;
-                height: 75px;
-                cursor: pointer;
-                position: absolute;
-                top: 195px;
-                left: 210px;
-                background: url(../images/icon.fw.png) no-repeat -177px -400px;
-                z-index: 30;
-                
-                
-            }
-            #right{
-                width: 28px;
-                height: 75px;
-                cursor: pointer;
-                position: absolute;
-                top: 195px;
-                right: 230px;
-                background: url(../images/icon.fw.png) no-repeat -209px -400px;
-                z-index: 30;
-            }
+
+        #left {
+            width: 28px;
+            height: 75px;
+            cursor: pointer;
+            position: absolute;
+            top: 195px;
+            left: 210px;
+            background: url(../images/icon.fw.png) no-repeat -177px -400px;
+            z-index: 30;
+
+
+        }
+
+        #right {
+            width: 28px;
+            height: 75px;
+            cursor: pointer;
+            position: absolute;
+            top: 195px;
+            right: 230px;
+            background: url(../images/icon.fw.png) no-repeat -209px -400px;
+            z-index: 30;
         }
     }
+}
 
 
 .menu {

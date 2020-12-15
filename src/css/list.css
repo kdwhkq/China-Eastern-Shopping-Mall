@@ -1,0 +1,431 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.top_m .span4 .hotsearch li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.top_h .icon .logn, .top_h .icon .register, .top_h .icon .east, .cartlist .item dd em a {
+  padding: 0 5px;
+  color: #777;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F3F2F7;
+}
+
+.top_h {
+  width: 1200px;
+  margin: 0 auto;
+  height: 23.8px;
+  padding: 10px 0;
+  background: #F3F2F7;
+}
+.top_h .span1 {
+  width: 40%;
+  float: left;
+}
+.top_h .icon {
+  width: 60%;
+  text-align: right;
+  float: right;
+  font-size: 12px;
+  color: #777;
+  line-height: 1.5;
+}
+.top_h .icon .span2_p {
+  padding: 0 5px;
+}
+.top_h .icon img {
+  padding: 0 5px;
+}
+
+.top_m {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #F3F2F7;
+}
+.top_m .span3 {
+  float: left;
+  width: 475px;
+  padding-top: 5px;
+}
+.top_m .span4 {
+  float: left;
+  width: 725px;
+}
+.top_m .span4 .search_btn {
+  float: left;
+  border: 2px solid #223b61;
+  margin-top: 10px;
+  width: 538px;
+  /* display: flex; */
+}
+.top_m .span4 .search_btn .search {
+  width: 440px;
+  border: none;
+  outline: none;
+  height: 18px;
+  padding: 6px;
+  color: #999;
+}
+.top_m .span4 .search_btn .button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background: #223b61;
+  color: #fff;
+  cursor: pointer;
+}
+.top_m .span4 .cart {
+  float: left;
+  margin: 10px 0 0 40px;
+  font-size: 12px;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+}
+.top_m .span4 .cart .gouwuche {
+  margin-right: 3px;
+  width: 22px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/cart.png) no-repeat;
+  position: relative;
+  top: 3px;
+}
+.top_m .span4 .cart .number{
+    padding: 1px 9px;
+    background: #FF7F00;
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 10px;
+    line-height: 14px;
+    display: inline-block;
+    height: 14px;
+    position: relative;
+    top: -1px;
+}
+.top_m .span4 .cart .arrow{
+    width: 6px;
+    height: 9px;
+    background: url(../images/icon.fw.png) -228px -84px no-repeat;
+    position: relative;
+    display: inline-block;
+}
+.top_m .span4 .hotsearch {
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  margin: 10px 0 15px 0;
+}
+.top_m .span4 .hotsearch li {
+  float: left;
+  margin-left: 10px;
+}
+
+.top_f {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-bottom: 2px solid #223b61;
+}
+.top_f .top_f_c {
+  width: 1200px;
+  margin: 0 auto;
+  height: 45px;
+  position: relative;
+}
+.top_f .top_f_c .allText {
+  width: 212px;
+  line-height: 47px;
+  background: #223b61;
+  color: #fff;
+  cursor: default;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+.top_f .top_f_c .lvyou {
+  padding: 0 30px;
+  font-weight: 700;
+}
+.top_f .top_f_c .lvyou a {
+  text-decoration: none;
+  color: #000;
+}
+/* 排序 */
+.btns{
+    width: 1200px;
+    margin: 5px 0 0 270px;
+}
+button{
+    padding: 5px;
+    background: #fff;
+    border: 2px solid #223b61;
+    border-radius: 3px;
+}
+/* 商品 */
+.list{
+    height: auto;
+    overflow: hidden;
+}
+.list ul{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    overflow: inherit;
+    padding-bottom: 2px;
+}
+.list ul li{
+    background: #fff;
+    width: 25%;
+    height: 250px;
+    float: left;
+    font-size: 12px;
+    outline: #f3f2f7 solid 1px;
+    position: relative;
+    margin-top: 8px;
+}
+.list ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #444;
+}
+.list ul li a img{
+    text-align: center;
+    margin-top: 20px;
+    align-self: center;
+    overflow: hidden;
+}
+.list ul li a h6{
+    margin: 6px 15px 0;
+    height: 36px;
+    overflow: hidden;
+    line-height: 150%;
+}
+.list ul li a span{
+    margin: 0 15px ;
+    font-size: 20px;
+    color: #ff4c4c;
+    font-weight: 700;
+}
+.list ul li a p{
+    margin: 0 15px;
+    line-height: 26px;
+    color: #a5a5a5;
+}
+
+
+/* 底部 */
+
+.footer .footer_img {
+    width: 100%;
+    background: #223b61;
+    margin: 20px 0 0;
+  }
+  
+  .footer .footer_img .footer_t {
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+  }
+  
+  .footer .footer_img .footer_t img {
+    width: 1200px;
+    height: 60px;
+  }
+  
+  .footer .footer_link {
+    width: 100%;
+    height: 205px;
+    padding: 40px 0;
+  }
+  
+  .footer .footer_link .f_link_c {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer .footer_link .f_link_c ul {
+    float: left;
+    width: 16%;
+    margin-left: 40px;
+  }
+  
+  .footer .footer_link .f_link_c ul .ul_t {
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .footer .footer_link .f_link_c ul li {
+    color: #89898a;
+    height: 25px;
+    font-size: 12px;
+    line-height: 200%;
+  }
+  
+  .footer .footer_link .f_link_c ul li a {
+    color: #89898a;
+    text-decoration: none;
+  }
+  
+  .footerline {
+    height: 1px;
+    width: 100%;
+    background: #E8E8E8;
+    clear: both;
+  }
+  
+  .footer .footer_down {
+    width: 100%;
+    height: 35.2px;
+    font-size: 12px;
+    text-align: center;
+    color: #89898A;
+    margin: 40px 0;
+  }
+  
+  .footer .footer_down a {
+    color: #000;
+    text-decoration: none;
+  }

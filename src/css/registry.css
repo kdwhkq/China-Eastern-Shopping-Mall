@@ -1,11 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    height: 132px;
-    line-height: 132px;
+    height: 92px;
+    
     background: #fff;
 }
 section{
     width: 1200px;
     margin: 0 auto;
-    line-height: 132px;
-    border: 1px solid red;
+    
+}
+nav{
+    width: 1200px;
+    padding-top: 40px;
+    
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+}
+
+h1{
+    float: right;
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+}
+h1 a{
+    color: #cb1d36;
 }

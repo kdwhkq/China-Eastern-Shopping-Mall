@@ -8,21 +8,21 @@ define(['jcookie'], () => {
             }
             //2.将sid传给后端，后端根据对应的sid返回不同的数据。
             $.ajax({
-                url: 'http://localhost/JS2010/week06/Day%2029-Day%2031_jquery/projectname/php/detail.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/detail.php',
                 data: {
                     sid: $sid
                 },
                 dataType: 'json'
             }).done(function(data) {
                 console.log(data);
-                console.log(data.urls);
+                console.log(data.url);
                 //获取数据，将数据放入对应的结构中。
                 $('#smallpic').attr('src', data.url);
                 $('.loadtitle').html(data.title);
                 $('.loadpcp').html(data.price);
 
                 //渲染放大镜下面的小图
-                let $picurl = data.urls.split(','); //将数据转换成数组。
+                let $picurl = data.url.split(','); //将数据转换成数组。
                 let $strhtml = '';
                 const $list = $('#list');
                 console.log($picurl);

@@ -119,13 +119,13 @@ define([], () => {
             const $titles = $('.phone .title_r span'); //6个标题
             const $contents = $('.phone .span7 .content'); //6块内容
             $titles.hover(function () {
-                $(this).addClass('t_span').siblings('span').removeClass('t_span');
+                $(this).addClass('t_span').siblings('span').removeClass('t_span'); 
                 $contents.eq($(this).index()).addClass('c_show').siblings('.content').removeClass('c_show');
             }, function () {});
             //tab切换板块1
             const $content_1 = $('.span7 .content_1 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
@@ -140,11 +140,12 @@ define([], () => {
 
                 });
                 $content_1.html($strhtml);
+                
             });
             //tab切换板块2
             const $content_2 = $('.span7 .content_2 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
@@ -162,11 +163,12 @@ define([], () => {
 
                 });
                 $content_2.html($strhtml);
+                
             });
             //tab切换板块3
             const $content_3 = $('.span7 .content_3 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
@@ -188,7 +190,7 @@ define([], () => {
             //tab切换板块4
             const $content_4 = $('.span7 .content_4 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
@@ -210,7 +212,7 @@ define([], () => {
             //tab切换板块5
             const $content_5 = $('.span7 .content_5 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
@@ -232,7 +234,7 @@ define([], () => {
             //tab切换板块6
             const $content_6 = $('.span7 .content_6 ul');
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/China%20Eastern/php/listdata.php',
+                url: 'http://10.31.161.131/dashboard/China%20Eastern/php/indexdata.php',
                 dataType: 'json'
             }).done(function (data) {
                 let $strhtml = '';
