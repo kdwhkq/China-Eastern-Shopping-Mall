@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+ul,
+ol,
+li {
+    list-style: none;
+}
 header{
     height: 92px;
     
@@ -30,4 +35,115 @@ h1{
 }
 h1 a{
     color: #cb1d36;
+}
+
+.moudle{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.moudle li{
+    line-height: 100px;
+    display: inline-block;
+    padding: 0 50px;
+    color: #cb1e36;
+    border-bottom: 4px solid #cb1e36;
+}
+.realName{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+    background: #fff4e5;
+    padding-left: 16px;
+}
+
+
+.registryContent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.key{
+    text-align: left;
+    height: 60px;
+    color: #666;
+    width: 100px;
+    font-size: 12px;
+    line-height: 60px;
+}
+.value{
+    width: 338px;
+    padding-left: 12px;
+}
+input{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    resize: none;
+    outline: 0;
+    box-shadow: none;
+    font-size: 12px;
+}
+.username,.zhengjian,.password1,.password2{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 284px;
+    height: 20px;
+    padding: 10px 8px;
+}
+.marginL{
+    width: 262px;
+    text-align: right;
+}
+.zhuce{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 25px auto;
+    cursor: pointer;
+    background: #ebebeb;
+    color: #fff;
+}
+.footer{
+    background: #223b61;
+}
+.footer li{
+    cursor: pointer;
+}
+.footer .ul1{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.footer .ul1 li{
+    float: left;
+    font-size: 14px;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+}
+.f_li{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.ul2{
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255,255,255,.6);
+}
+.ul2 li{
+    line-height: 30px;
 }
