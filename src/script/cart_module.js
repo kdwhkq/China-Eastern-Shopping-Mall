@@ -83,9 +83,13 @@ define(['jcookie'], () => {
                 calcprice(); //计算总价
             });
 
+            //改变数量
             $('.quantity-add').on('click', function() {
                 let $num = $(this).parents('.goods-item').find('.quantity-form input').val();
                 $num++;
+                if($num > 99){
+                    $num = 99;
+                }
                 $(this).parents('.goods-item').find('.quantity-form input').val($num);
 
                 $(this).parents('.goods-item').find('.b-sum strong').html(calcsingleprice($(this)));
@@ -111,6 +115,13 @@ define(['jcookie'], () => {
                 let $reg = /^\d+$/g; //只能输入数字
                 let $value = $(this).val();
                 if (!$reg.test($value)) { //不是数字
+                    $(this).val(1);
+                }
+                if ($value > 99) {
+                    $(this).val(99);
+                }
+
+                if ($value <= 0) {
                     $(this).val(1);
                 }
                 $(this).parents('.goods-item').find('.b-sum strong').html(calcsingleprice($(this)));
@@ -148,12 +159,13 @@ define(['jcookie'], () => {
 
 
 //             //6.删除
-            function delcookie(sid, arrsid) { //sid:当前删除的sid  arrsid:存放sid的数组[3,5,6,7]
+            function delcookie(sid, arrsid,arrnum) { //sid:当前删除的sid  arrsid:存放sid的数组[3,5,6,7]
                 let $index = -1; //删除的索引位置
                 $.each(arrsid, function(index, value) {
                     if (sid === value) {
                         $index = index;
                     }
+                    
                 });
                 arrsid.splice($index, 1);
                 arrnum.splice($index, 1);
@@ -161,12 +173,19 @@ define(['jcookie'], () => {
                 $.cookie('cookiesid', arrsid, { expires: -1, path: '/' });
                 $.cookie('cookienum', arrnum, { expires: -1, path: '/' });
             }
+
+
             $('.b-action a').on('click', function() {
                 cookietoarray();
                 if (window.confirm('你确定要删除吗?')) {
                     $(this).parents('.goods-item').remove();
-                    delcookie($(this).parents('.goods-item').find('img').attr('sid'), arrsid);
+                    delcookie($(this).parents('.goods-item').find('img').attr('sid'), arrsid,arrnum);
                     calcprice(); //计算总价
+                    if ($arrsid.length === 0) {
+                        alert(1);
+                        $.cookie('cookiesid', $arrsid, { expires: -1, path: '/' });
+                        $.cookie('cookienum', $arrnum, { expires: -1, path: '/' });
+                    }
                 }
             });
 

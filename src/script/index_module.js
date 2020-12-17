@@ -322,17 +322,21 @@ define([], () => {
             // });
 
             //检测是否用户已经登录
-            if (localStorage.getItem('loginname')) {
+            if (localStorage.getItem('loginID')) {
                 $('.admin').show();
                 $('.login').hide();
-                $('.admin span').html(localStorage.getItem('loginname'));
+                $('.register').hide();
+                $('.spaner').hide();
+                $('.admin span').html(localStorage.getItem('loginID'));
             }
 
             //退出登录 - 删除本地存储
-            $('.admin a').on('click', function () {
+            $('.logout').on('click', function () {
                 $('.admin').hide();
                 $('.login').show();
-                localStorage.removeItem('loginname');
+                $('.register').show();
+                $('.spaner').show();
+                localStorage.removeItem('loginID');
             });
 
         }
